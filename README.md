@@ -1,1 +1,1 @@
-# commit-message-checker-with-regex
+feat(github): hhh (DEVOPS-2637)
