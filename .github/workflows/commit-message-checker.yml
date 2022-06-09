@@ -41,9 +41,9 @@ jobs:
         uses: gsactions/commit-message-checker@v1
         with:
           pattern: '.+\s.(DEVOPS-[0-9]+)'
-          error: 'You need at least one "fix(gke): subject (DEVOPS-nnnn)" line.'
+          error: 'You need at least one "(feat|fix)\((cicd|git|github|gke|iam|tf)\): subject (DEVOPS-nnnn)" line.'
       - name: Check no whitespace at the beginning and end of commit message
         uses: gsactions/commit-message-checker@v1
         with:
           pattern: '^[^\s].+[^\s]$'
-          error: 'You need at least one "fix(gke): subject (DEVOPS-nnnn)" line.'
+          error: 'You need at least one "(feat|fix)\((cicd|git|github|gke|iam|tf)\): subject (DEVOPS-nnnn)" line.'
