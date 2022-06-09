@@ -1,1 +1,1 @@
-fix(iam): jjj (DEVOPS-2623)
+fix(iam): Check no whitespace at the beginning and end of commit message (DEVOPS-2623)
